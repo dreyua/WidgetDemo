@@ -10,14 +10,12 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.widget.RemoteViews;
 
 /**
  * Created by drey on 20.01.2016.
  */
 public class WidgetUpdater extends Service {
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;
